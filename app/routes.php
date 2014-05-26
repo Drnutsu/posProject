@@ -15,3 +15,13 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::model('products','Products');
+
+Route::get('/product','ProductsController@productsHome');
+
+Route::get('/product/create','ProductsController@productsCreate');
+
+Route::get('/product/edit','ProductsController@productsEdit');
+
+Route::get('/product/delete','ProductsController@productsDelete');
