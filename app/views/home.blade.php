@@ -1,8 +1,8 @@
-
 @extends('layout.master')
 
-@section('content')
-         <!--  <h1 class="page-header">Dashboard</h1>
+@section('body')
+
+         <h1 class="page-header">Dashboard</h1>
 
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
@@ -154,7 +154,7 @@
                 </tr>
               </tbody>
             </table>
-          </div> -->
-         <p> Test </p>    
+          </div>
 @stop
+
 
