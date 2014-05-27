@@ -11,12 +11,12 @@
 |
 */
 
+Route::model('products','Products');
+
 Route::get('/', function()
 {
 	return View::make('home');
 });
-
-Route::model('products','Products');
 
 Route::get('/product','ProductsController@productsHome');
 
